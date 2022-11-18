@@ -14,6 +14,7 @@ public class QueueObjects {
         //queue.get(); get method is from list
         System.out.println(queue);
 
+
        queue.offer(30); //  same as add method
         System.out.println(queue);
 

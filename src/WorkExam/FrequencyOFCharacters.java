@@ -7,11 +7,11 @@ public class FrequencyOFCharacters {
         String name = "AAABBCDD";
 
         String checked = "";
-
+        int count = 0;
 
         for (int i = 0; i < name.length(); i++) {
             char letter = name.charAt(i);
-            int count = 0;
+
             if (checked.contains("" + letter) ){
                 continue;
 
@@ -26,7 +26,7 @@ public class FrequencyOFCharacters {
                 }
             }
             System.out.println(letter + " - " + count);
-           checked+= letter; // (2)if we will not put, then will count all pp, eeee
+          checked+= letter; // (2)if we will not put, then will count all pp, eeee
 
         }
 

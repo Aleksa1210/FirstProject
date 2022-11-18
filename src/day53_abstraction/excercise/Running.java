@@ -3,6 +3,7 @@ package day53_abstraction.excercise;
 public class Running extends Exercise {
 
     public Running() {
+
         super("Running");
     }
 

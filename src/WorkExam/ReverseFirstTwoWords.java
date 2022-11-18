@@ -10,7 +10,8 @@ public class ReverseFirstTwoWords {
         String str2 = "";
         //swap 1 and2      3 and 4
         String[] temp = str.split( " " );
-        System.out.println( Arrays.toString( temp ) );
+       // System.out.println( Arrays.toString( temp ) );
+
         ArrayList<String> list = new ArrayList<>(Arrays.asList( temp ));
         for (int i = 0; i <list.size() ; i+=2) {
             Collections.swap(list,i,(i+1));
